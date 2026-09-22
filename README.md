@@ -208,5 +208,3 @@ frontend/   Next.js app: components/Timeline.tsx, Dashboard.tsx, ClusterDetail.t
 db/         schema.sqlite.sql, schema.postgres.sql
 docs/       DEPLOYMENT.md, VIDEO_SCRIPT.md, SUBMISSION_CHECKLIST.md, SUBMISSION_EMAIL.md
 ```
-#   n e w s _ p l u s e  
- 
