@@ -1,0 +1,20 @@
+# dependencies / build output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# local data & secrets - never commit these
+.env
+.env.local
+data/*.db
+data/*.db-*
+scraper/.env
+backend/.env
+frontend/.env.local

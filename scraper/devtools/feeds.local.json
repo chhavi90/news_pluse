@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Alpha Daily",
+    "url": "http://127.0.0.1:8765/feeds/alpha.xml",
+    "enabled": true
+  },
+  {
+    "name": "Beta Times",
+    "url": "http://127.0.0.1:8765/feeds/beta.xml",
+    "enabled": true
+  },
+  {
+    "name": "Gamma Post",
+    "url": "http://127.0.0.1:8765/feeds/gamma.xml",
+    "enabled": true
+  },
+  {
+    "name": "Broken Feed",
+    "url": "http://127.0.0.1:8765/feeds/broken.xml",
+    "enabled": true
+  }
+]

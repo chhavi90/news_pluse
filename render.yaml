@@ -1,0 +1,23 @@
+# Render Blueprint - New > Blueprint > pick this repo.
+# Secrets are NOT stored here: Render asks for them (sync: false) and keeps them on the platform.
+services:
+  - type: web
+    name: news-pulse-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL        # Neon / Supabase / Railway connection string
+        sync: false
+      - key: CORS_ORIGINS        # your Vercel URL, e.g. https://news-pulse.vercel.app
+        sync: false
+      # Free instances have 512 MB RAM - these keep the pipeline comfortably small:
+      - key: CLUSTER_MAX_ARTICLES
+        value: "1200"
+      - key: MAX_WORKERS
+        value: "4"

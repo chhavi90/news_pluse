@@ -1,0 +1,7 @@
+[
+  { "name": "BBC News",     "url": "http://feeds.bbci.co.uk/news/rss.xml",                    "enabled": true },
+  { "name": "NPR",          "url": "https://feeds.npr.org/1001/rss.xml",                      "enabled": true },
+  { "name": "The Guardian", "url": "https://www.theguardian.com/world/rss",                   "enabled": true },
+  { "name": "Al Jazeera",   "url": "https://www.aljazeera.com/xml/rss/all.xml",               "enabled": true },
+  { "name": "NYT World",    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "enabled": false, "note": "Paywalled article pages - full-text extraction usually fails, feed summary is used instead" }
+]
