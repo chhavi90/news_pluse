@@ -9,7 +9,7 @@ News Pulse pulls live articles from several public news RSS feeds, groups the on
 | Timeline UI | Next.js 16 / React 19 / TypeScript | [`/frontend`](frontend) |
 | Database | SQLite locally, PostgreSQL (Neon / Supabase / Railway) when hosted | [`/db`](db) |
 
-**Live demo:** _<add your Vercel URL here>_ &nbsp;|&nbsp; **API:** _<add your Render URL here>_ &nbsp;|&nbsp; **Video:** _<add your unlisted video link here>_
+**Live demo:** _[https://frontend-two-rosy-32.vercel.app/]_ &nbsp;|&nbsp; **API:** _[https://news-pulse-api-loko.onrender.com]_ &nbsp;|&nbsp; **Video:** _<add your unlisted video link here>_
 
 ---
 
